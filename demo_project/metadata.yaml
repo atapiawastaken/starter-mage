@@ -1,10 +1,13 @@
-k8s_executor_config:
-  job_name_prefix: k8s-executor
-  namespace: maahff # replace with application shortId 
-  resource_limits:
-    cpu: 100m
-    memory: 256Mi
-  resource_requests:
-    cpu: 50m
-    memory: 128Mi
-  service_account_name: mageai
+# We are currently developing a new version that will include support for the Kubernetes Executor. 
+# Until this version is released, please left this section commented
+
+# k8s_executor_config:
+#   job_name_prefix: k8s-executor
+#   namespace: maahff # replace with application shortId 
+#   resource_limits:
+#     cpu: 100m
+#     memory: 256Mi
+#   resource_requests:
+#     cpu: 50m
+#     memory: 128Mi
+#   service_account_name: mageai
